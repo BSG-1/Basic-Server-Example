@@ -11,5 +11,5 @@ app.listen(PORT, function () {
 
 //routing
 app.get("/", function (req, res) {
-
+    res.send("<h1>Hello World, this is a Bahadur app</h1>")
 })
